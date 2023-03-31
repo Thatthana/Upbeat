@@ -4,6 +4,16 @@
   align-items: center;
   min-height: 100vh;
   min-width: 100vw;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   font-family: "IBM Plex Mono", monospace;
+  flex-direction: column;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  background-size: 500px;
 }
