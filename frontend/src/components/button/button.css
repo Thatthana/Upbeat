@@ -35,15 +35,20 @@
 
 .primaryBtn:hover {
   transform: scale(1.1);
-  background-color: rgb(221, 185, 56);
+  background-color: rgb(120, 120, 120);
 }
 
 .secondaryBtn:hover {
   transform: scale(1.1);
-  background-color: rgb(221, 185, 56);
+  background-color: rgb(120, 120, 120);
 }
 
 .tertiaryBtn:hover {
   transform: scale(1.1);
-  background-color: rgb(221, 185, 56);
+  background-color: rgb(120, 120, 120);
+}
+
+.text {
+  text-decoration: none;
+  color: black;
 }
