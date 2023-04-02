@@ -1,14 +1,27 @@
-import textbox from "@/component/textbox";
-import React from "react";
-import timer from "../component/timer";
+import { useState, useEffect } from "react";
+export default function gamePage() {
+  const [timeLeft, setTimeLeft] = useState(120);
 
-function gamePage() {
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setTimeLeft((prevTime) => {
+        if (prevTime === 0) {
+          clearInterval(intervalId);
+          return 0;
+        } else {
+          return prevTime - 1;
+        }
+      });
+    }, 1000);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, []);
+
   return (
-    <div>
-      <timer />
-      <h1>GG</h1>
+    <div className="container">
+      <div className="vertical-center">{timeLeft}s</div>
     </div>
   );
 }
-
-export default gamePage;
