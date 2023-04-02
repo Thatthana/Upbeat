@@ -2,30 +2,24 @@ import { useState } from "react";
 import Grid from "./Grid";
 
 export default function Hexgrid() {
-  //-------------------------------------------------
   const rows = 12;
   const columns = 10;
   const H = 55;
   const W = (246 / 212) * H;
-  //H=212   W=246
-  //-------------------------------------------------
 
   const matrix = new Array(rows);
   for (let i = 0; i < rows; i++) {
     matrix[i] = new Array(columns).fill(null);
   }
 
-  // Define an array of image names
   const imageNames = Array.from({ length: rows * columns }, (_, i) => {
     const imageNumber = (i % 3) + 1;
-    // return "l1.png";
+
     return `l${imageNumber}.png`;
   });
 
-  // Shuffle the array to get a random order
   const shuffledImageNames = shuffleArray(imageNames);
 
-  // Set the image values using the shuffled array
   let imageIndex = 0;
   for (let i = 0; i < rows; i++) {
     for (let j = 0; j < columns; j++) {
@@ -90,7 +84,6 @@ export default function Hexgrid() {
   );
 }
 
-// Function to shuffle an array in place
 function shuffleArray<T>(array: T[]): T[] {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));

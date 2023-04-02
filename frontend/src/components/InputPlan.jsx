@@ -21,7 +21,7 @@ export default function InputPlan() {
       alert("Failed to save construction plan.");
     }
   };
-  
+
   const frameStyle = {
     width: "60%",
     height: "30%",
@@ -31,19 +31,16 @@ export default function InputPlan() {
     marginTop: "50px",
   };
 
-
   return (
-    <div  className="home">
-      <h1 style={{ color: "black" }} className="textplan">
-        Construction Plan
-      </h1>
-      <textarea 
+    <div className="homeplan">
+      <h1 style={{ color: "black" }}>Construction Plan</h1>
+      <textarea
         value={inputValue}
         onChange={handleInputChange}
         placeholder="Enter your construction plan here.. ."
-        className="inputplan"
+        className="plan"
       />
-      <button onClick={handleClick} className="saveplan">
+      <button onClick={handleClick} className="btn-container">
         Save
       </button>
     </div>
