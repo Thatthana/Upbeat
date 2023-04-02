@@ -20,7 +20,7 @@ export default function timer() {
   }, []);
 
   return (
-    <div className="container">
+    <div className="container" style={{zIndex:99999,position: "relative"}}>
       <div className="vertical-center">{timeLeft}s</div>
     </div>
   );

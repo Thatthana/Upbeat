@@ -12,6 +12,8 @@ function Frame() {
     alignItems: "center",
     overflow: "auto",
     marginTop: "50px",
+    zIndex: 0
+
   };
 
   return (
