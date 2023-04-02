@@ -34,6 +34,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: white;
 }
 
 .vertical-center {
@@ -54,6 +55,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: white;
 }
 .turn-contain {
   margin: 15px;
@@ -63,6 +65,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: white;
 }
 
 .text-border {
@@ -71,6 +74,7 @@
   border-radius: 5px;
   color: black;
   position: fixed;
+  background-color: white;
 }
 
 .btn-container {
@@ -101,4 +105,23 @@
   background-color: rgb(255, 255, 255);
   font-family: "IBM Plex Mono", monospace;
   flex-direction: column;
+}
+
+.even {
+  /* top: 0; */
+  /* position: relative; */
+  top: 30px;
+
+  display: inline-block;
+  position: relative;
+  /* margin-right: 0; */
+}
+
+.odd {
+  margin-top: 20px;
+
+  display: inline-block;
+  /* width: fit-content; */
+  /* margin-right: 0; */
+  width: fit-content;
 }
