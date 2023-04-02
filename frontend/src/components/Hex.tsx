@@ -34,16 +34,16 @@ export default function Hexgrid() {
       imageIndex++;
     }
   }
-  matrix[6][6] = "g1.png";
-  matrix[0][1] = "g5.png";
-  matrix[1][1] = "g4.png";
+  matrix[6][6] = "CT.png";
+  matrix[0][1] = "g4.png";
+  matrix[1][1] = "g2.png";
   matrix[5][1] = "g3.png";
   matrix[3][1] = "g3.png";
-  matrix[3][2] = "g5.png";
-  matrix[3][7] = "g1.png";
-  matrix[3][6] = "g7.png";
-  matrix[3][5] = "g8.png";
-  matrix[3][4] = "g9.png";
+  matrix[3][2] = "g6.png";
+  matrix[3][7] = "g8.png";
+  matrix[3][6] = "g2.png";
+  matrix[3][5] = "g9.png";
+  matrix[3][4] = "g1.png";
 
   const [zoomLevel, setZoomLevel] = useState(1);
 
