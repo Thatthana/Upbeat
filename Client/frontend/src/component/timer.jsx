@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function timer() {
-  const [timeLeft, setTimeLeft] = useState(60);
+  const [timeLeft, setTimeLeft] = useState(120);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -22,7 +22,7 @@ export default function timer() {
 
   return (
     <div className="container">
-      <div className="countdown">{timeLeft} seconds left</div>
+      <div className="vertical-center">{timeLeft}s</div>
     </div>
   );
 }

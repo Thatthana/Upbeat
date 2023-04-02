@@ -22,9 +22,10 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/pages/gamePage.jsx",
+    "src/pages/gamePage.js",
     "src/component/textbox.jsx",
-    "src/pages/gamePage.jsx"
+    "src/pages/gamePage.js",
+    "src/pages/configsPage.jsx"
   ],
   "exclude": ["node_modules"]
 }
