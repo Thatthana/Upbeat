@@ -1,0 +1,104 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  min-width: 50vw;
+  background-color: rgb(255, 255, 255);
+  font-family: "IBM Plex Mono", monospace;
+  flex-direction: column;
+}
+
+.menutext {
+  padding: 1px 12px;
+  margin: 6px;
+  border-radius: 6px;
+  font-weight: 200;
+  font-size: 50;
+  letter-spacing: 1.2px;
+  border: 5px solid rgb(0, 0, 0);
+  text-decoration: none;
+  color: #000;
+}
+
+.menutext:hover {
+  transform: scale(1.1);
+  background-color: rgb(116, 116, 116);
+}
+
+.container {
+  border-radius: 6px;
+  display: flex;
+  letter-spacing: 1.2px;
+  font-family: "IBM Plex Mono", monospace;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vertical-center {
+  transform: translateY(50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  position: fixed;
+}
+
+.money-contain {
+  padding-left: 91.5%;
+  letter-spacing: 1.5px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.turn-contain {
+  margin: 15px;
+  letter-spacing: 1.5px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-border {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  position: fixed;
+}
+
+.btn-container {
+  border-radius: 6px;
+  display: flex;
+  letter-spacing: 1.2px;
+  font-family: "IBM Plex Mono", monospace;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  position: fixed;
+}
+
+.entername {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  min-width: 20vw;
+  background-color: rgb(255, 255, 255);
+  font-family: "IBM Plex Mono", monospace;
+  flex-direction: column;
+}
