@@ -123,3 +123,26 @@
   /* margin-right: 0; */
   position: relative;
 }
+
+.plan {
+  padding: 100px 200px;
+
+  letter-spacing: 1.5px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.homeplan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  min-width: 50vw;
+  background-color: rgb(255, 255, 255);
+  font-family: "IBM Plex Mono", monospace;
+  flex-direction: column;
+}
